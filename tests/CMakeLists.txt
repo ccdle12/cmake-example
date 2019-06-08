@@ -1,5 +1,5 @@
-# Use the googletest folder *OSX* only.
-add_subdirectory(/googletest
+# Use the gtest folder path, this is specific to OSX.
+add_subdirectory(/gtest
                  ${PROJECT_BINARY_DIR}/gtest)
 
 # Enable use of CTest.
